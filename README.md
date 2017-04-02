@@ -41,6 +41,12 @@ in development environment.
 * check out project code:
 
         $ git clone https://github.com/healthchecks/healthchecks.git
+        
+* install database:
+
+  If you are use PostgreSQL,you need install psycopg2.When you meet "Requirment installation eeror. Error: pg_config executable not found to Requirment installation error",you need:
+        
+        $ sudo apt install libpq-dev 
 
 * install requirements (Django, ...) into virtualenv:
 
